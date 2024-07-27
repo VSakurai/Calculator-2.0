@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Калькулятор версия 2.0" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="author" content="V.Sakurai" />
+		<title>Calculator 2.0</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<input type="checkbox" id="dark-mode" class="input" />
+		<label for="dark-mode" class="label">
+			<div class="circle"></div>
+		</label>
+		<div class="calculator">
+			<input type="text" name="result" id="result" readonly />
+			<div class="buttons">
+				<button class="button clear">C</button>
+				<button class="button operator">/</button>
+				<button class="button operator">*</button>
+				<button class="button operator">-</button>
+				<button class="button number">7</button>
+				<button class="button number">8</button>
+				<button class="button number">9</button>
+				<button class="button operator">+</button>
+				<button class="button number">4</button>
+				<button class="button number">5</button>
+				<button class="button number">6</button>
+				<button class="button equals">=</button>
+				<button class="button number">1</button>
+				<button class="button number">2</button>
+				<button class="button number">3</button>
+				<button class="button number">0</button>
+				<button class="button decimal">.</button>
+			</div>
+		</div>
+		<script src="calc.js"></script>
+		<script src="toggle.js"></script>
+	</body>
+</html>
